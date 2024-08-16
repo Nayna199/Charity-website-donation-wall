@@ -1,0 +1,294 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-color: peachpuff;
+}
+header {
+    background-color:transparent;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+.donate-button {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: peachpuff;
+    color: brown;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.donate-button:hover {
+    background-color: yellow;
+}
+
+.donate-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.donate-button:hover {
+    background-color: brown;
+    color: white;
+}
+
+
+h1, h2 {
+    font-family: "Georgia", serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 10px;
+    font-weight: bold;
+    color: brown;
+    margin-top: 10px;
+}
+
+.donate-text {
+    font-size: 14px;
+    color: brown;
+}
+
+.see-more-button {
+    display: block;
+    margin-top: 20px;
+}
+
+body {
+background-image: url("hjhj.png");
+background-size: cover;
+background-position: center;
+margin: 0;
+padding: 0;
+font-family: 'Arial', sans-serif;
+color: brown;
+}
+.back-button {
+background-color: peachpuff;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+display: block;
+margin-top: 20px; 
+}
+
+.back-button:hover {
+background-color: brown; 
+}
+
+.container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+}
+
+.content-box {
+background-color:transparent;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+max-width: 900px;
+text-align: left;
+}
+body {
+background-image: url("hjhj.png");
+background-size: cover;
+background-position: center;
+margin: 0;
+padding: 0;
+font-family: 'Arial', sans-serif;
+color: brown;
+}
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+flex-direction: column; 
+}
+
+
+.cute-text-box {
+background-color:transparent;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+max-width: 600px;
+text-align: left;
+}
+
+
+.cute-text-box h1 {
+font-size: 24px;
+}
+
+.cute-text-box p {
+font-size: 18px;
+}
+
+.cute-text-box h2 {
+font-size: 20px;
+}
+
+
+.back-link {
+background-color: peachpuff;
+padding: 10px 20px;
+border-radius: 5px;
+text-decoration: none;
+color: brown;
+margin-top: 20px;
+}
+
+.back-link:hover {
+background-color: #FFD700;
+}
+
+body {
+background-image: url("hjhj.png");
+background-size: cover;
+background-position: center;
+margin: 0;
+padding: 0;
+font-family: 'Arial', sans-serif;
+color: brown;
+}
+.back-button {
+background-color: peachpuff;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+display: block;
+margin-top: 20px; 
+}
+
+.back-button:hover {
+background-color: brown; 
+}
+
+.container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+}
+
+.content-box {
+background-color: transparent;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+max-width: 900px;
+text-align: left;
+}
+body {
+    background: url('hjhj.png') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+#slideshow-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.slide-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; 
+}
+
+.text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: peachpuff;
+    padding: 10px;
+    text-align: center;
+font-size: 16px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: peachpuff;
+    color: brown;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px; 
+    transition: background-color 0.3s, color 0.3s;
+    margin: 10px; 
+}
+
+.prev:hover, .next:hover {
+    background-color: yellow;
+}
+
+.prev:hover, .next:hover {
+    background-color: black;
+    color: white;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.go-back {
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px 40px; 
+    background-color: peachpuff;
+    color: brown;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px; 
+    transition: background-color 0.3s, color 0.3s;
+    margin: 10px;
+}
+
+.go-back:hover {
+    background-color: yellow;
+}
+
+.go-back:hover {
+    background-color: black;
+    color: white;
+}
